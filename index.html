@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/index_style.css">
+    <link rel="shortcut icon" href="https://icons-for-free.com/iconfiles/png/512/calculation+calculator+finance+icon-1320184880579880963.png" type="image/x-icon">
+    <title>Calculator Web</title>
+</head>
+<body>
+    <div class="container">
+        <div id="OSection" class="OptionsSection">
+            <div class="history"> 🕖 Historial</div>
+            <input id = "deleteH" class="deletehistory" type="button" value="Borrar">
+        </div>
+
+        <div id="CSection" class="CalculatorSection">
+            <div id = "process" class="process"></div>
+           <input placeholder="0" id="Operator" type="text" readonly="readonly" class="Operator">
+           <div class="OperatorItemsSection">
+              <input id="Clear"  type="button" value="C" class="Operatoritems fontOne">
+              <input id="ClearE" type="button" value="CE" class="Operatoritems fontOne">
+              <input id="Back" type="button" value="←" class="Operatoritems max-size fontOne">
+              <input id="Divide" type="button" value="÷" class="Operatoritems max-size fontOne">
+           </div>
+           <div class="OperatorItemsSection">
+            <input id="Seven" type="button" value="7" class="Operatoritems fontTwo">
+            <input id="Eight" type="button" value="8" class="Operatoritems fontTwo">
+            <input id="Nine" type="button" value="9" class="Operatoritems fontTwo">
+            <input id="Multi" type="button" value="x" class="Operatoritems fontOne">
+         </div>
+         <div class="OperatorItemsSection">
+            <input id="Four" type="button" value="4" class="Operatoritems fontTwo">
+            <input id="Five" type="button" value="5" class="Operatoritems fontTwo">
+            <input id="Six" type="button" value="6" class="Operatoritems fontTwo">
+            <input id="Rest" type="button" value="-" class="Operatoritems max-size fontOne">
+         </div>
+         <div class="OperatorItemsSection">
+            <input id="One" type="button" value="1" class="Operatoritems fontTwo">
+            <input id="Two" type="button" value="2" class="Operatoritems fontTwo">
+            <input id="Three" type="button" value="3" class="Operatoritems fontTwo">
+            <input id="Sum" type="button" value="+" class="Operatoritems max-size fontOne">
+         </div>
+         <div class="OperatorItemsSection">
+            <input id="Change" type="button" value="+/-" class="Operatoritems max-size fontTwo">
+            <input id="Zero" type="button" value="0" class="Operatoritems fontTwo">
+            <input id="Point" type="button" value="." class="Operatoritems max-size fontTwo" >
+            <input id="Equal" type="button" value="=" class="Operatoritems max-size fontFour">
+         </div>
+        </div>
+    </div>
+    <script src="./Scripts/Index_script.js"></script>
+</body>
+</html>
